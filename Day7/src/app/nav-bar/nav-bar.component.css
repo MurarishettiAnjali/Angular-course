@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    background-color: #34495e;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .left {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    color: white;
+  }
+  .right ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  li {
+    padding: 1rem;
+  }
+  a {
+    color: #929dab;
+    text-decoration: none;
+    font-size: 1 rem;
+  }
+  a:hover{
+    background-color: #16223c;
+    border-radius: 10px;
+  }
+  .vas {
+    margin-right: 20px;
+  }
+  

@@ -1,0 +1,17 @@
+.main-class .banner-one {
+    background-image: url("http://localhost/lop.jpg");
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -290px;
+  }
+  .head-two {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: #fefef9;
+    font: size 1.5em;
+    padding-top: 3%;
+    padding-left: 2%;
+  }
