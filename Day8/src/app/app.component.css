@@ -1,0 +1,28 @@
+    a{
+        font-family: sans-serif;
+        color: black;
+        float: right;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 40px;
+        
+    }   
+    h3{
+        margin-top: 5px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 23px;
+        width: 100%;
+        position: relative;
+        color:black;
+        margin-bottom: 5px;
+    }
+
+   .header{
+    background-color: white;
+    width: 100%;
+     }
+   
+.star{
+    width: 5%;
+}

@@ -1,0 +1,22 @@
+.service-box{
+    width: 33.3%;
+    float: left;
+    background-color: white;
+}
+img{
+    display: block;
+    margin-left: 168px;
+    width:15%;
+}
+p{
+    color:black;
+    width: 180px;
+    margin-left: 110px;
+    color: black;
+    text-align: center;
+   }
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}

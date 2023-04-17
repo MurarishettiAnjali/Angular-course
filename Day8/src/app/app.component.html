@@ -1,0 +1,12 @@
+<div class="header">
+      <img src="http://localhost/f_logo.jpg" class="star">
+<a>Contact Us</a>
+<a>Pricing</a> 
+<a>Product</a>
+<a>Home</a> 
+</div>
+  <app-about [content]="dataitems.aboutus" ></app-about>
+  <h3>OUR PRODUCT</h3>
+   <app-service-box *ngFor="let x of services;let y=index" 
+   [title]="x" [description]="descriptions[y]"></app-service-box>
+   
