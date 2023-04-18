@@ -1,0 +1,16 @@
+li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+ul{
+    margin-left: 50px;
+}
+.base{
+    background-color: darkseagreen;
+}
+a{
+    text-decoration: none;
+}
