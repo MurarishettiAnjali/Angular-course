@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "sofa",
+      "price": 25000,
+      "type": "household appliances",
+      "desc": "comfortable and classy",
+      "image": "sofa.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "perfume",
+        "price": 1000,
+        "type": "Cosmetics",
+        "desc": "good fragnance makes yu feel fresh",
+        "image": "perfume.jpg"
+  
+      },{
+        "id": 3,
+        "name": "AC",
+        "price": 24000,
+        "type": "household appliances",
+        "desc": "Its a good AC worth the price",
+        "image": "AC.jpg"
+  
+      },{
+        "id": 4,
+        "name": "lipstick",
+        "price": 1700,
+        "type": "Cosmetics",
+        "desc": "classy shade for a classy look",
+        "image": "lipstick.jpg"
+  
+      },{
+        "id": 5,
+        "name": "watch",
+        "price": 3500,
+        "type": "electronics",
+        "desc": "have a good time with the good watch",
+        "image": "watch.jpg"
+  
+      },{
+        "id": 6,
+        "name": "washing machine",
+        "price": 14000,
+        "type": "household appliances",
+        "desc": "this makes your work less and perfect",
+        "image": "washing machine.jpg"
+  
+      },{
+        "id": 7,
+        "name": "fridge",
+        "price": 25000,
+        "type": "household appliances",
+        "desc": "makes your food items fresh and clean",
+        "image": "fridge.jpg"
+  
+      }
+  ]
+}
