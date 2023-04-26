@@ -21,68 +21,48 @@ export class ComplaintsComponent {
 
   pproducts: Prod[] = [
     {      
-      "name": "Casio AE-1200",
-      "flag": "http://localhost/casio.jpg"
+      "name": "lipstick",
+      "flag": "http://localhost/lipstick.jpg"
     },
     {      
-      "name": "Apple Airpods Pro, 2nd Generation",
-      "flag": "http://localhost/airpods.jpg"
+      "name": "washing machine",
+      "flag": "http://localhost/washing machine.jpg"
     },
     {      
-      "name": "Seeraga Samba Organic Rice",
-      "flag": "http://localhost/rice.jpg"
+      "name": "AC",
+      "flag": "http://localhost/AC.jpg"
     },
     {      
-      "name": "ATTACK ON TITAN",
-      "flag": "http://localhost/aot-1.jpg"
+      "name": "fridge",
+      "flag": "http://localhost/fridge.jpg"
     },
     {      
-      "name": "Boat Airdopes 441",
-      "flag": "http://localhost/boatairpods.jpg"
+      "name": "perfume",
+      "flag": "http://localhost/perfume.jpg"
     },
     {      
-      "name": "Nutriwish Steel Cut Oats (200G)",
-      "flag": "http://localhost/oats.jpg"
+      "name": "watch",
+      "flag": "http://localhost/watch.jpg"
     },
     {      
-      "name": "Armani Exchange Men Watch",
-      "flag": "http://localhost/ax.jpg"
-    },
-    {      
-      "name": "Naruto V01 V01 Viz",
-      "flag": "http://localhost/naruto.jpg"
-    },
-    {      
-      "name": "Jaguar Classic Blue & Green Deodorant",
-      "flag": "http://localhost/jaguar.jpg"
-    },
-    {
-      "name": "Asus Zenbook 14X 2022",
-      "flag": "http://localhost/lap.jpg"
-    },
-    {
-      "name": "Face Serum with Mandarin",
-      "flag": "http://localhost/face.jpg"
+      "name": "sofa",
+      "flag": "http://localhost/sofa.jpg"
     }
   ];
-  // 
   fname:any;
   email:any;
   message:any;
   product:any;
   errors:string[] = [];
-  //
   constructor(private cs:ComplaintsService){
     this.filteredStates = this.stateCtrl.valueChanges.pipe(
       startWith(''),
       map(prod => (prod ? this._filterStates(prod) : this.pproducts.slice())),
     );
-    // 
     
-    //
   }
   
-  //
+
   ngOnInit(): void {
   }
   submit(){
@@ -109,7 +89,7 @@ export class ComplaintsComponent {
         )
       }
   }
-  //
+
   private _filterStates(value: string): Prod[] {
     const filterValue = value.toLowerCase();
     return this.pproducts.filter(state => state.name.toLowerCase().includes(filterValue));
